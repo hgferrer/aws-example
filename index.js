@@ -20,6 +20,6 @@ app.use('/api/productos', require('./routes/producto'));
 
 
 
-app.listen(4000, () => {
-    console.log(`Servidor corriendo OK en puerto ${4000}`)
+app.listen(80, () => {
+    console.log(`Servidor corriendo OK en puerto ${80}`)
 })
